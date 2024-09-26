@@ -115,9 +115,8 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 <H3>Program:</H3> 
+
 ```
-
-
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -154,6 +153,7 @@ flower_predictions = le.inverse_transform(predictions)
 print(flower_predictions)
 print(confusion_matrix(y_test, predictions))
 print(classification_report(y_test, predictions))
+
 ```
 
 <H3>Output:</H3>
